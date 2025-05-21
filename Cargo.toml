@@ -6,6 +6,6 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-burn = { version = "0.13.0", features = ["wgpu", "dataset"] }
+burn = { version = "0.13.0", features = ["wgpu", "dataset", "train"] }
 csv = "1.3.0"
 serde = { version = "1.0.198", features = ["derive"] }
